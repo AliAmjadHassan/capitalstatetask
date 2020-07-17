@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap.min.css"></link>
+  <title>AutoComplete</title>
+</head>
+
+  <body>
+  
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 m-auto">
+          <h3 class="text-center mb-3">
+            Auto Complete
+          </h3>
+          <form autocomplete="off" >
+            <div class="autocomplete" style="width: 300px;">
+              <input
+                id="search"
+                type="text"
+                name="myCountry"
+                class="form-control form-control-lg"
+                placeholder="Country"
+              />
+              </div>
+          </form>
+          <div id="match-list"></div>
+        </div>
+      </div>
+    </div>
+    <script src="bundle.js"></script>
+  </body>
+
+</html>
